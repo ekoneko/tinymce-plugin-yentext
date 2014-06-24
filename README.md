@@ -11,3 +11,7 @@ a yen text plugin for tinymce
     }
     tinymce.DOM.loadCSS("tinymce/plugin/yen/style.css");
     tinyMCE.init(options);
+
+## demo
+
+http://ekoneko.github.io/tinymce/
