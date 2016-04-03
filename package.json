@@ -1,0 +1,9 @@
+{
+  "name": "tinymce-yentext",
+  "version": "1.0.0",
+  "description": "A yentext plugin for tinymce",
+  "license": "MIT",
+  "keywords": [
+    "tinymce"
+  ]
+ }
