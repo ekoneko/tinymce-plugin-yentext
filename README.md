@@ -15,7 +15,7 @@ fix some bugs
 ## how to use
 
 ```
-    import 'tinymce-yentext/plugin'
+    import 'tinymce-yentext'
 
     options = {
         toolbar1: "yen",
