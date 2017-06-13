@@ -1,16 +1,29 @@
-a yen text plugin for tinymce
+A yen text plugin for tinymce
+
+## whats new
+
+remove jquery depends
+
+use es6
+
+fix some bugs
+
+## install
+
+  npm i tinymce-yen
 
 ## how to use
 
+```
+    import 'tinymce-yentext/plugin'
+
     options = {
         toolbar1: "yen",
-        external_plugins: {
-            yen: "tinymce/plugin/yen/plugin.js"
-        }
-        // , and other options
+        plugin: "yen",
+        ...
     }
-    tinymce.DOM.loadCSS("tinymce/plugin/yen/style.css");
     tinyMCE.init(options);
+```
 
 ## demo
 
