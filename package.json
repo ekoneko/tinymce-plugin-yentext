@@ -1,10 +1,23 @@
 {
   "name": "tinymce-yentext",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A yentext plugin for tinymce",
   "license": "MIT",
   "keywords": [
     "tinymce"
   ],
-  "main": "plugin.js"
- }
+  "main": "lib/plugin.js",
+  "scripts": {
+    "compile": "rm -rf lib/* && babel src -d lib && cp src/style.css lib",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  }
+}

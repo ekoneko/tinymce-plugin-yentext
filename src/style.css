@@ -17,3 +17,7 @@
     overflow: hidden;
     cursor: pointer;
 }
+
+.mce-i-yen:before {
+    content: '颜'
+}
